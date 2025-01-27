@@ -1,0 +1,60 @@
+.scroll_container {
+  height: 350vh;
+}
+
+.horizontal_scroll {
+  padding-top: 10%;
+  height: 100vh;
+  width: 350vw;
+  display: flex;
+  overflow-x: hidden;
+  align-items: center;
+}
+
+.scroll_contents {
+  height: 90%;
+  width: 80vw;
+  /* min-width: 750px;
+  min-height: 600px; */
+  border-radius: 20px;
+  margin-right: 1.4%;
+  background-color: #f4f4f4;
+}
+
+.sticky_wrap {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  margin-left: 6%;
+  bottom: 0;
+}
+
+@media screen and (max-width: 980px) {
+  .scroll_container {
+    height: 230vh;
+    width: 95vw;
+  }
+  .sticky_wrap {
+    width: 95vw;
+    height: 230vh;
+    margin : 0;
+    position: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .horizontal_scroll {
+    padding-top: 0;
+    width: 95vw;
+    height: 220vh;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2%;
+  }
+
+  .scroll_contents {
+    width: 88vw;
+    margin: 0;
+  }
+}

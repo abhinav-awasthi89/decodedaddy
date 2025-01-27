@@ -1,0 +1,188 @@
+nav {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 5%;
+    align-items: center;
+    /* background-color: rgba(0, 0, 0, 0); */
+    position: fixed;
+    width: 100%;
+    /* margin: 10; */
+    height: 160px;
+    transition: transform 0.2s linear, opacity 0.2s linear;
+    z-index: 1000;
+    animation: moveDown 0.3s linear;
+}
+
+
+nav.disappear {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+nav.appear {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+nav.tansparent {
+    background-color: rgb(0, 0, 0);
+    /* border-bottom: 2px solid black; */
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.194);
+}
+
+.nav-logo {
+    width: 127px;
+    cursor: pointer;
+}
+
+
+.get-quote {
+    border: 1px solid white;
+    padding: 20px 38px;
+    font-size: 1.3rem;
+    border-radius: 50px;
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    display: flex;
+    transform: translate(0, -3px);
+    justify-content: center;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.get-quote:active {
+    transform: translate(0, 0);
+}
+
+.menu {
+    border-radius: 32px;
+    padding: 15px 2px;
+    transition: all 0.2s ease-in-out;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: black;
+    position: relative;
+    display: inline-flex;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    z-index: 80;
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 13px 2rem;
+    margin: -0.5rem -0.5rem;
+    mix-blend-mode: difference;
+    border-radius: 20px;
+    white-space: nowrap;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu li a:hover {
+    color: white;
+}
+
+.nav-hover {
+    width: 100px;
+    position: absolute;
+    left: 50vw;
+    z-index: 10;
+    border-radius: 32px;
+    height: 49px;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+.hero-section {
+    padding-top: 23vh;
+}
+
+.menu-button {
+    display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    nav {
+        height: auto;
+        position: inherit;
+    }
+
+    .nav-logo {
+        width: 80px;
+        margin-bottom: 10px;
+    }
+
+    .menu {
+        display: none;
+        width: 100%;
+        background-color: white;
+        text-align: center;
+        transition: all 0.2s linear;
+    }
+
+    .menu ul {
+        display: block;
+        /* Change to block layout */
+    }
+
+    .menu li {
+        margin-bottom: 15px;
+    }
+
+    .menu li a {
+        display: block;
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .menu-button {
+        display: block;
+        /* Show menu button */
+        color: white;
+        border: none;
+        font-size: 3.5rem;
+        cursor: pointer;
+    }
+
+    .get-quote {
+        display: none;
+    }
+
+    .menu.show {
+        display: block;
+        position: absolute;
+        width: 80vw;
+        left: 50%;
+        top: 15vh;
+        transform: translateX(-50%);
+        transition: all 0.2s ease-in-out;
+    }
+
+    .nav-hover {
+        display: none;
+    }
+}
+
+@keyframes moveDown {
+    from {
+        transform: translateY(-100%);
+    }
+
+    to {
+        transform: translateY(0%);
+    }
+}

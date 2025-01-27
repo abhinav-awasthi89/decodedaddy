@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 2048 2048" width="1280" height="1280" xmlns="http://www.w3.org/2000/svg">
+<path transform="translate(301,942)" d="m0 0h47l1 1v57h46v27l-1 1h-45v59h-48l-1-1v-143z"/>
+<path transform="translate(1526,942)" d="m0 0h55l29 29v87l-29 29h-55v-29h35v-87h-35z"/>
+<path transform="translate(827,942)" d="m0 0h55l29 29v87l-29 29h-55v-29h35v-87h-35z"/>
+<path transform="translate(933,942)" d="m0 0h47l1 1v57h46v28h-46v59h-48z"/>
+<path transform="translate(195,942)" d="m0 0h54l8 7 21 21v89l-28 28h-56v-28l1-1h35v-87h-36v-28z"/>
+<path transform="translate(1688,942)" d="m0 0h54l8 7 21 21v89l-28 28h-55l-1-1v-27l1-1h35v-87h-36v-28z"/>
+<path transform="translate(1201,942)" d="m0 0h54l29 29v88l-28 28h-56v-29h36v-87h-36v-28z"/>
+<path transform="translate(1352,942)" d="m0 0h46l5 10 16 41 37 92v2h-49l-6-15-47-1 9-27 1-1 25-1-6-17-19-49-12-31z"/>
+<path transform="translate(682,942)" d="m0 0h37l8 7 22 22v87l-29 29h-38v-29h18v-86h-18z"/>
+<path transform="translate(637,942)" d="m0 0h37v30h-18l1 85 17 1v29h-37l-29-29v-87z"/>
+<path transform="translate(1470,942)" d="m0 0h48v145h-48z"/>
+<path transform="translate(771,942)" d="m0 0h48v145h-48z"/>
+<path transform="translate(1632,942)" d="m0 0h47l1 1v144h-48z"/>
+<path transform="translate(1145,942)" d="m0 0h47l1 1v144h-48z"/>
+<path transform="translate(139,942)" d="m0 0h47l1 1v144h-48z"/>
+<path transform="translate(1779,942)" d="m0 0h46l10 19 22 45 11 22 7 15v44h-48l-1-47-38-76-9-19z"/>
+<path transform="translate(481,942)" d="m0 0h19l1 1v144h-20l-29-29v-86l7-8z"/>
+<path transform="translate(1346,950)" d="m0 0 2 2 20 54-12 37-14 43-1 1h-46l3-10 26-70 21-56z"/>
+<path transform="translate(509,942)" d="m0 0h51l28 28v30h-48v-29h-32v-28z"/>
+<path transform="translate(1879,942)" d="m0 0h45l-1 5-25 50-10 19-9 18-3-3-16-33-5-10 2-6 12-23 9-16z"/>
+<path transform="translate(540,1037)" d="m0 0h48v22l-28 28h-52v-29h32z"/>
+<path transform="translate(383,1044)" d="m0 0h49v42l-1 1h-75v-29h27z"/>
+<path transform="translate(1016,1044)" d="m0 0h48v43h-75l-1-1v-27l1-1h27z"/>
+<path transform="translate(989,942)" d="m0 0h74l1 1v41h-46v-14h-30v-27z"/>
+<path transform="translate(357,942)" d="m0 0h74l1 1v41h-46v-14h-30v-27z"/>
+</svg>

@@ -1,0 +1,207 @@
+.footerContainer {
+  display: flex;
+  width: 90vw;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 30px;
+  padding: 2% 2% 0 2%;
+  margin: 8% 5% 4% 5%;
+  color: black;
+  overflow: hidden;
+}
+
+.socialParent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.socialParent div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+  font-size: medium;
+}
+
+.socialLogo {
+  position: relative;
+  width: 100px;
+  height: 70px;
+}
+
+.social {
+  display: flex;
+  width: 100%;
+  flex-direction: row !important;
+  justify-content: space-between;
+}
+
+.social a {
+  margin: 10px;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.columns div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 5%;
+  font-size: medium;
+}
+
+.columns div p:first-child {
+  font-size: 2.3rem;
+  margin-bottom: 1.5rem;
+}
+
+
+.columns div p:nth-child(n+2) {
+  font-size: 1.6rem;
+  text-align: left;
+  line-height: 9%;
+  padding-top: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.contactInfo {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.contactInfo>div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.ourContact {
+  position: relative;
+  height: 60px;
+  width: 60px;
+}
+
+.DECODEDADDY_container {
+  margin-top: 10px;
+  position: relative;
+  z-index: 100;
+  width: 100%;
+  height: 90px;
+}
+
+.DECODEDADDY {
+  height: 60px;
+  padding: 1px auto;
+  position: absolute;
+  text-align: center;
+  color: rgba(209, 206, 206, 0.646);
+}
+
+.DECODEDADDY p {
+  font-weight: 400;
+  font-size: 10.8vw;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: var(--font-Black-Ops-One);
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+  line-height: 1;
+  transition: all 0.2s linear;
+}
+
+@media (max-width: 768px) {
+  .footerContainer {
+    width: 95vw;
+    margin: 5% 2% 2% 2%;
+    padding: 10% 5% 5% 5%;
+  }
+
+  .socialParent div {
+    padding: 0px;
+    margin: 3px;
+  }
+  .socialLogo {
+    width: 40px;
+    height: 40px;
+  }
+  .columns {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .columns div {
+    align-items: center;
+  }
+
+  .columns div p:first-child {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .columns div p:nth-child(n+2) {
+    font-size: 1rem;
+    line-height: 1px;
+    padding-top: 3px;
+  }
+
+  .contactInfo>div span {
+    font-size: 1rem;
+    width: fit-content;
+  }
+
+  .contactInfo div {
+    position: relative;
+  }
+
+  .DECODEDADDY p {
+    font-size: 8vw;
+  }
+
+  .ourContact {
+    height: 30px;
+    width: 30px;
+  }
+
+  .contactInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .DECODEDADDY_container {
+    height: 5px;
+  }
+
+  .DECODEDADDY {
+    left: 50%;
+    position: absolute;
+    top: 98%;
+    z-index: 100;
+    transform: translateX(-50%);
+  }
+
+  .DECODEDADDY {
+    word-spacing: n;
+  }
+
+}

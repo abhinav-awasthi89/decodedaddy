@@ -1,0 +1,93 @@
+.ConvinceForm {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 5% 5%;
+}
+
+.ConvinceForm p:first-child {
+    font-size: 1.5rem;
+    color: #A6A6A6;
+}
+
+.ConvinceForm p:nth-child(2) {
+    font-size: 68px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.ConvinceForm form {
+    background-color: #F3F3F3;
+    padding: 30px 60px;
+    border-radius: 30px;
+}
+
+.ConvinceForm form input {
+    width: 100%;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    outline: none;
+}
+
+.ConvinceForm form input:focus {
+    border-bottom: 2px solid black;
+}
+
+.ConvinceForm form label {
+    width: 100%;
+    font-size: 1.4rem;
+}
+
+.ConvinceForm form button {
+    background-color: black;
+    padding: 18px 45px;
+    border-radius: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    transform: translate(0, -3px);
+}
+
+.ConvinceForm form button:active {
+    transform: translate(0, 0);
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .ConvinceForm {
+        padding: 3% 3%;
+    }
+
+    .ConvinceForm p:first-child {
+        font-size: 1.1rem;
+    }
+
+    .ConvinceForm p:nth-child(2) {
+        font-size: 40px;
+    }
+
+    .ConvinceForm form {
+        padding: 15px 30px;
+    }
+
+    .ConvinceForm form input {
+        font-size: 0.9rem;
+        margin-bottom: 30px;
+    }
+
+    .ConvinceForm form label {
+        font-size: 1rem;
+    }
+
+    .ConvinceForm form button {
+        padding: 12px 30px;
+    }
+}
