@@ -20,13 +20,15 @@ function Counter({ target, style }) {
       { threshold: 0.1 } // Adjust threshold as needed
     );
 
-    if (ref.current) {
-      observer.observe(ref.current);
+    const element = ref.current; // Store ref.current in a local variable
+
+    if (element) {
+      observer.observe(element);
     }
 
     return () => {
-      if (ref.current) {
-        observer.unobserve(ref.current);
+      if (element) {
+        observer.unobserve(element); // Use the local variable for cleanup
       }
     };
   }, []);
