@@ -37,10 +37,10 @@ export default function Cards() {
     <div className="scroll_container" >
       <div className="sticky_wrap">
         <div className="horizontal_scroll">
-          <div className="scroll_contents" ></div>
-          <div className="scroll_contents" ></div>
-          <div className="scroll_contents" ></div>
-          <div className="scroll_contents" ></div>
+          <div className="scroll_contents" >Branding</div>
+          <div className="scroll_contents" >UI/UX Development</div>
+          <div className="scroll_contents" >Web Dev & App Dev</div>
+          <div className="scroll_contents" >Digital Marketing</div>
         </div>
       </div>
     </div>

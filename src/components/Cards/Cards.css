@@ -14,7 +14,13 @@
 .scroll_contents {
   height: 90%;
   width: 80vw;
-  /* min-width: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 7em;
+  /* min-width: 750emem;
   min-height: 600px; */
   border-radius: 20px;
   margin-right: 1.4%;
