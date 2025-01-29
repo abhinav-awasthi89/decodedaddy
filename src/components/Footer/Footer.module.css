@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Doto:wght@100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
 .footerContainer {
   display: flex;
   width: 90vw;
@@ -115,7 +117,7 @@
 
 .DECODEDADDY p {
   font-weight: 400;
-  font-size: 10.8vw;
+  font-size: 10vw;
   text-align: center;
   text-transform: uppercase;
   font-family: var(--font-Black-Ops-One);
