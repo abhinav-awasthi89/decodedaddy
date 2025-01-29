@@ -72,9 +72,9 @@ function Hero() {
             time, delivering exceptional results.
           </span>
         </p>
-        <div className={styles.knowMore}>
+        {/* <div className={styles.knowMore}>
           <span style={{ borderBottom: "4px solid black" }}>know more</span>
-        </div>
+        </div> */}
       </div>
     </section>
   );

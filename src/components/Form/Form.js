@@ -4,12 +4,12 @@ import styles from './Form.module.css'
 
 function ConvinceForm() {
     return (
-        <section style={{ pointerEvents: "initial" }} className={styles.ConvinceForm}>
-            <p>Still not conviced?</p>
-            <p>Drop a Quick Note!</p>
-            <form className={styles.Form} onSubmit={(e)=>e.preventDefault()}>
+        <section id="contactUs" className={styles.ConvinceForm}>
+            <p style={{ pointerEvents: "initial" }}>Still not conviced?</p>
+            <p style={{ pointerEvents: "initial" }}>Drop a Quick Note!</p>
+            <form style={{ pointerEvents: "initial" }} className={styles.Form} onSubmit={(e) => e.preventDefault()}>
                 <label>What&apos;s your name?</label>
-                <input placeholder='Shobhit Pratap Singh' />
+                <input type='text' placeholder='Shobhit Pratap Singh' />
                 <label>Your Email?</label>
                 <input type='email' placeholder='shobhit@gmail.com' />
                 <label>Enter Your Phone number</label>

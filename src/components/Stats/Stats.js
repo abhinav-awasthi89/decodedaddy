@@ -14,7 +14,7 @@ export default function Stats() {
         </div>
         <div className="stat-cards-inner">
           <Counter target={89} />
-          <span >CSAT score</span>
+          <span >CSAT Score</span>
         </div>
         <div className="stat-cards-inner">
           <Counter target={4} />

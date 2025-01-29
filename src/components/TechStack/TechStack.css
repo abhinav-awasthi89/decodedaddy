@@ -7,8 +7,12 @@
 }
 
 .card {
-  width: 25%; /* 25% of the parent width */
-  height: 60%; /* 40% of the parent height */
+  width: 15%;
+  height: 30%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   padding: 0.5rem;
   background: #f4f4f4;
   border-radius: 8px;
@@ -17,7 +21,6 @@
   border-left: 2px rgba(51, 51, 51, 0.44) outset;
   box-shadow: -40px 50px 30px rgba(0, 0, 0, 0.280);
   transform: skewX(10deg);
-  text-align: center;
   transition: .4s;
   overflow: hidden;
   color: rgb(0, 0, 0);
@@ -25,7 +28,7 @@
 }
 
 .card:hover {
-  height: 100%; /* 60% of the parent height */
+  height: 50%;
   transform: skew(0deg);
 }
 
@@ -37,25 +40,6 @@
   align-self: flex-start;
 }
 
-.red, .yellow, .green {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.280);
-}
-
-.red {
-  background-color: #ff605c;
-}
-
-.yellow {
-  background-color: #ffbd44;
-}
-
-.green {
-  background-color: #00ca4e;
-}
-
 .card h1 {
   text-align: center;
   margin: 1.3rem;
@@ -63,8 +47,29 @@
   text-shadow: -10px 5px 10px rgba(0, 0, 0, 0.573);
 }
 
+.icon-container {
+  font-size: 50px;
+  color: #61dafb; /* Adjust color based on your theme */
+  /* margin: 10em; */
+
+}
+
+.align {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.align span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
 .tech-cards {
   display: flex;
+  width: "50%";
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
