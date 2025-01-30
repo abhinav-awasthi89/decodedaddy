@@ -37,6 +37,10 @@
 }
 
 @media screen and (max-width: 980px) {
+  .scroll_contents{
+    font-size: 2em;
+  }
+
   .scroll_container {
     height: 230vh;
     width: 95vw;
